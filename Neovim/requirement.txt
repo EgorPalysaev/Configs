@@ -1,1 +1,2 @@
 $ sudo pacman -S tree-sitter-cli
+$ sudo pacman -S wl-clipboard
