@@ -46,6 +46,7 @@ local menu        = "hyprlauncher"
 local browser	  = "zen-browser"
 local launcher	  = "rofi -show drun -show-icons"
 local run_launcher= "rofi -show run"
+local printscreen = "hyprshot -m region"
 
 -------------------
 ---- AUTOSTART ----
@@ -283,6 +284,7 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(launcher))
 hl.bind(secondMod .. " + Space", hl.dsp.exec_cmd(run_launcher))
+hl.bind("PRINT", hl.dsp.exec_cmd(printscreen))
 hl.bind(mainMod .. " + U", hl.dsp.layout("togglesplit"))    -- dwindle only
 
 -- Move focus with mainMod + arrow keys
