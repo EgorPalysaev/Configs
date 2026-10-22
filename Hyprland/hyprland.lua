@@ -40,7 +40,7 @@ hl.monitor({
 ---------------------
 
 -- Set programs that you use
-local terminal    = "ghostty"
+local terminal    = "kitty"
 local fileManager = "nemo"
 local menu        = "hyprlauncher"
 local browser	  = "zen-browser"
