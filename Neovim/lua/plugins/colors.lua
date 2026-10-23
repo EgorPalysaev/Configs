@@ -1,12 +1,13 @@
 return {
   -- the colorscheme should be available when starting Neovim
   {
-    "folke/tokyonight.nvim",
-    lazy = false, -- make sure we load this during startup if it is your main colorscheme
+    "catppuccin/nvim",
+	name = "catppuccin",
+	lazy = false, -- make sure we load this during startup if it is your main colorscheme
     priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       -- load the colorscheme here
-      vim.cmd([[colorscheme tokyonight]])
+      vim.cmd([[colorscheme catppuccin-nvim]])
     end,
   },
   {
@@ -15,7 +16,7 @@ return {
 	"nvim-tree/nvim-web-devicons",
     },
     opts = {
-	theme = 'tokyonight',
+	theme = 'catppuccin-nvim',
     }
   },
 }
