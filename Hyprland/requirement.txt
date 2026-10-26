@@ -1,1 +1,1 @@
-yay -S kitty noto-fonts noto-fonts-cjk noto-fonts-emoji xdg-desktop-portal-hyprland hyprpolkitagent nemo hyprlauncher bibata-cursor-theme ttf-jetbrains-mono-nerd hyprshot
+yay -S --needed kitty noto-fonts noto-fonts-cjk noto-fonts-emoji xdg-desktop-portal-hyprland hyprpolkitagent dolphin hyprlauncher bibata-cursor-theme ttf-jetbrains-mono-nerd hyprshot
