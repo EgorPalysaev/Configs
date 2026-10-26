@@ -41,7 +41,7 @@ hl.monitor({
 
 -- Set programs that you use
 local terminal    = "kitty"
-local fileManager = "nemo"
+local fileManager = "dolphin"
 local menu        = "hyprlauncher"
 local browser	  = "zen-browser"
 local printscreen = "hyprshot -m region"
