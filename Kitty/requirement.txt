@@ -1,1 +1,1 @@
-yay -Syu --needed ttf-firacode-nerd
+yay -Syu --needed ttf-jetbrains-mono-nerd
