@@ -1,1 +1,1 @@
-yay -Suy --needed kitty noto-fonts noto-fonts-cjk noto-fonts-emoji xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher bibata-cursor-theme ttf-firacode-nerd hyprshot hyprpaper
+yay -Suy --needed kitty noto-fonts noto-fonts-cjk noto-fonts-emoji xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher bibata-cursor-theme hyprshot hyprpaper
