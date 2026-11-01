@@ -47,7 +47,15 @@ vim.pack.add({
   "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
-require('neo-tree').setup({})
+require('neo-tree').setup({
+    filesystem = {
+      filtered_items = {
+	visible = true,          -- Make hidden items appear as "dimmed" rather than completely invisible
+	hide_dotfiles = false,   -- Key: show files starting with "." (such as .gitignore)
+	hide_gitignored = false, -- Also show files ignored by Git (set to true if not needed)
+    },
+  },
+})
 
 
 ------------- Telescope
